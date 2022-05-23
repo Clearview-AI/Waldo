@@ -11,7 +11,7 @@ The purpose of the Waldo app is to provide a basic rundown of the capabilities o
 1. Software prerequisites:
    1. Python3
    2. Python packages:
-      1. requests ([Link](https://docs.python-requests.org/en/latest/))
+      1. requests ([Link]https://pypi.org/project/requests/))
       2. dotenv ([Link](https://pypi.org/project/python-dotenv/))
 2. Download Waldo.py and place in a convenient directory.
 3. In the Consent web app, generate an API key and copy the key.
