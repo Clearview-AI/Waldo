@@ -1,0 +1,6 @@
+# MacOS generated files #
+#########################
+.env
+.dot
+.DS_Store
+.DS_Store?
