@@ -72,7 +72,6 @@ if __name__ == "__main__":
         else:
             if verbose:
                 print(f"\n- Create collection returned HTTP code {res.status_code}.\n")
-                print(res.json())
             return res, False
         
     # adds image to collection given a name and image path
@@ -213,7 +212,7 @@ if __name__ == "__main__":
         if(len(sys.argv) == 3):
             detect(sys.argv[2])
         else:
-            raise Exception("\n- Incorrect number of arguments for 'compare'.\n- Correct syntax: detect <image_path>\n")
+            raise Exception("\n- Incorrect number of arguments for 'detect'.\n- Correct syntax: detect <image_path>\n")
     else:
         print('''Invalid operation. Accepted operations are:
             find <probe_image_path> <reference_image_path>
